@@ -67,8 +67,6 @@ START_OTHER_USERS_TEXT = get_config(
     )
 )
 
-# Send photo by uploading from URL
-app.send_photo("me", "https://telegra.ph/file/505e3d50d9a408301a50e.jpg" caption="its-leo-bitch")
 
 
 
