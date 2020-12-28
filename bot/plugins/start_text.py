@@ -17,7 +17,9 @@
 
 
 
-from pyrogram import (
+
+
+  from pyrogram import (
     Client,
     filters
 )
@@ -39,7 +41,7 @@ photon="https://telegra.ph/file/505e3d50d9a408301a50e.jpg"
     filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
     ~uszkhvis_chats_ahndler([AUTH_CHANNEL])
 )
-async def num_start_message(client, message: Message):
+async def num_start_message(c, message: Message):
     await c.send_photo(
         chat_id=message.chat.id,
         photo=photon,
@@ -57,3 +59,4 @@ async def nimda_start_message(_, message: Message):
         ONLINE_CHECK_START_TEXT,
         quote=True
     )
+ 
