@@ -66,7 +66,11 @@ START_OTHER_USERS_TEXT = get_config(
         "My Brain..was created by @WONKRU_HERE "
     )
 )
-
+START_IMG = os.environ.get('START_IMG', None)
+if START_IMG is None:
+    img = "https://telegra.ph/file/262c433b646b60a81cf72.jpg"
+else:
+  img = START_IMG    
         
 
 
