@@ -31,7 +31,7 @@ from bot import (
 )
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
-photon="https://telegra.ph/file/505e3d50d9a408301a50e.jpg"
+photon="https://telegra.ph/file/cde779ea8045dc6d4129c.jpg"
 
 @Client.on_message(
     filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
