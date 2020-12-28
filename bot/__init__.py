@@ -74,7 +74,7 @@ START_OTHER_USERS_TEXT = get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "Master's BITCH Is online <b>master</b>\n\n"
+        "Master's BITCH Is online "
         
     )
 )
