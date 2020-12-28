@@ -66,12 +66,10 @@ START_OTHER_USERS_TEXT = get_config(
         "My Brain..was created by @WONKRU_HERE "
     )
 )
-START_IMG = os.environ.get('START_IMG', None)
-if START_IMG is None:
-    img = "https://telegra.ph/file/262c433b646b60a81cf72.jpg"
-else:
-  img = START_IMG    
-        
+
+# Send photo by uploading from URL
+app.send_photo("me", "https://telegra.ph/file/505e3d50d9a408301a50e.jpg" caption="its-leo-bitch")
+
 
 
 # check online status of your bot
