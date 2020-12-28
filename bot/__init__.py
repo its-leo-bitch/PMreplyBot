@@ -66,13 +66,7 @@ START_OTHER_USERS_TEXT = get_config(
         "My Brain..was created by [{}](tg://user?id={}) "
     )
 )
-#Pm pic for others..
-START_OTHER_USERS_IMG = get_config(
-        "START_OTHER_USERS_IMG",
-    (
-            img = "https://telegra.ph/file/505e3d50d9a408301a50e.jpg"
-      )
-)
+
         
 
 
