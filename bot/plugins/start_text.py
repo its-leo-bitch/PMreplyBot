@@ -15,6 +15,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
+
+
 from pyrogram import (
     Client,
     filters
@@ -31,15 +33,18 @@ from bot import (
 )
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
+photon="https://telegra.ph/file/505e3d50d9a408301a50e.jpg"
 
 @Client.on_message(
     filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
     ~uszkhvis_chats_ahndler([AUTH_CHANNEL])
 )
-async def num_start_message(_, message: Message):
-    await message.reply_text(
-        START_OTHER_USERS_TEXT,
-        quote=True
+async def num_start_message(client, message: Message):
+    await c.send_photo(
+        chat_id=message.chat.id,
+        photo=photon,
+        caption=START_OTHER_USERS_TEXT
+        
     )
 
 
