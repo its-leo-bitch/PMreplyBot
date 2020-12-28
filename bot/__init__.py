@@ -64,7 +64,6 @@ START_OTHER_USERS_TEXT = get_config(
     (
         "Yo...*{}*..I'm Leo's Personal Manager."
         "My Brain..was created by [{}](tg://user?id={}) "
-        "
     )
 )
 #Pm pic for others..
