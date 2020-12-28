@@ -62,7 +62,7 @@ START_COMMAND = get_config("START_COMMAND", "start")
 START_OTHER_USERS_TEXT = get_config(
     "START_OTHER_USERS_TEXT",
     (
-        "Yo..I'm Leo's Personal Manager🤖"
+        "Yo..I'm Leo's Personal Manager⚡"
         "My Brain is created by @WONKRU_HERE "
     )
 )
